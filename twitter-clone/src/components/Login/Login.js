@@ -1,5 +1,5 @@
-import backgroundImage from "../assets/img/login_background_1302x955.png";
-import "../assets/css/Login.css";
+import backgroundImage from "./assets/img/login_background_1302x955.png";
+import "./Login.css";
 
 function Login() {
   return (
