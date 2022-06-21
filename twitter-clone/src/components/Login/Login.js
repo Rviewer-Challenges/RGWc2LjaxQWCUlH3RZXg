@@ -1,5 +1,7 @@
+import React from "react";
 import backgroundImage from "./assets/img/login_background_1302x955.png";
 import "./Login.css";
+import { Link } from 'react-router-dom'
 
 function Login() {
   return (
@@ -27,7 +29,9 @@ function Login() {
           <span>Únete a Twitter hoy mismo</span>
           <div>
             <div className="button">
-            <a href="#">Inicia sesión</a></div>
+            {/* <Link to='../Home/Home.js'>Inicia sesión</Link> */}
+            <a href="#">Inicia sesión</a>
+            </div>
           </div>
           {/* login */}
         </article>
