@@ -1,13 +1,15 @@
-function App() {
+import React from "react";
+const Home = (props) => {
   return (
     <>
-    {/* Sidebar */}
+      <h1>THIS IS THE HOME</h1>
+      {/* Sidebar */}
 
-    {/* Feed */}
+      {/* Feed */}
 
-    {/* Widgets */}
+      {/* Widgets */}
     </>
   );
 }
 
-export default App;
+export default Home;

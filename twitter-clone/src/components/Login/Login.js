@@ -29,8 +29,8 @@ function Login() {
           <span>Únete a Twitter hoy mismo</span>
           <div>
             <div className="button">
-            {/* <Link to='../Home/Home.js'>Inicia sesión</Link> */}
-            <a href="#">Inicia sesión</a>
+            <Link to='/home'>Inicia sesión</Link>
+            {/* <a href="#">Inicia sesión</a> */}
             </div>
           </div>
           {/* login */}
