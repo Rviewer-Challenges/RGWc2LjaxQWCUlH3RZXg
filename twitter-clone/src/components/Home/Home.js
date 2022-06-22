@@ -1,15 +1,15 @@
 import React from "react";
+import Sidebar from "../Sidebar/Sidebar";
 const Home = (props) => {
   return (
     <>
-      <h1>THIS IS THE HOME</h1>
-      {/* Sidebar */}
-
+      <Sidebar />
+      
       {/* Feed */}
 
       {/* Widgets */}
     </>
   );
-}
+};
 
 export default Home;

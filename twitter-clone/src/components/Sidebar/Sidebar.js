@@ -10,19 +10,22 @@ import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 import ListAltIcon from "@mui/icons-material/ListAlt";
 import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import PendingOutlinedIcon from "@mui/icons-material/PendingOutlined";
+import Button from '@mui/material/Button';
+
 
 function Sidebar() {
   return (
     <div className="sidebar">
       <TwitterIcon />
-      <SidebarOption icon={HomeIcon} text="Home" />
-      <SidebarOption icon={NumbersIcon} text="Explore" />
-      <SidebarOption icon={NotificationsNoneIcon} text="Notifications" />
-      <SidebarOption icon={MailOutlineIcon} text="Messages" />
-      <SidebarOption icon={BookmarkBorderIcon} text="Bookmarks" />
-      <SidebarOption icon={ListAltIcon} text="Lists" />
-      <SidebarOption icon={PermIdentityIcon} text="Profile" />
-      <SidebarOption icon={PendingOutlinedIcon} text="More" />
+      <SidebarOption active Icon={HomeIcon} text="Home" />
+      <SidebarOption Icon={NumbersIcon} text="Explore" />
+      <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" />
+      <SidebarOption Icon={MailOutlineIcon} text="Messages" />
+      <SidebarOption Icon={BookmarkBorderIcon} text="Bookmarks" />
+      <SidebarOption Icon={ListAltIcon} text="Lists" />
+      <SidebarOption Icon={PermIdentityIcon} text="Profile" />
+      <SidebarOption Icon={PendingOutlinedIcon} text="More" />
+      <Button variant="outlined" className="sidebar-tweet" fullWidth>Tweet</Button>
       {/* Tweet button */}
     </div>
   );
