@@ -16,7 +16,7 @@ import Button from '@mui/material/Button';
 function Sidebar() {
   return (
     <div className="sidebar">
-      <TwitterIcon />
+      <TwitterIcon className="twitter-icon"/>
       <SidebarOption active Icon={HomeIcon} text="Home" />
       <SidebarOption Icon={NumbersIcon} text="Explore" />
       <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" />
