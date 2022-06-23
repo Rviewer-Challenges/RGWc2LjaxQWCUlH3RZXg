@@ -25,14 +25,13 @@
 }
 
 .tweet-box .tweet-button {
-  background-color: var(--twitter-color);
-  border: none;
   color: white;
   font-weight: 900;
-  text-transform: inherit;
+  background-color: var(--twitter-color)!important;
+  border: none;
   border-radius: 30px;
-  width: 80px;
-  height: 40px;
+  text-transform: inherit;
+  height: 50px;
   margin-top: 20px;
   margin-left: auto;
 }
