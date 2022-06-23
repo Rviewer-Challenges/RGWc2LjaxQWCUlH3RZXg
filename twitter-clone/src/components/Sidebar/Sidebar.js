@@ -26,7 +26,6 @@ function Sidebar() {
       <SidebarOption Icon={PermIdentityIcon} text="Profile" />
       <SidebarOption Icon={PendingOutlinedIcon} text="More" />
       <Button variant="outlined" className="sidebar-tweet" fullWidth>Tweet</Button>
-      {/* Tweet button */}
     </div>
   );
 }
