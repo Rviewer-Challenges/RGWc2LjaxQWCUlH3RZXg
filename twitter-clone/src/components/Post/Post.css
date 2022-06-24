@@ -1,0 +1,59 @@
+.post {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+  padding-bottom: 20px;
+}
+
+.post .avatar {
+  padding: 0.5rem;
+}
+
+.post .content .header {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.post .content .header h3 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.post .content .header span {
+  font-weight: normal;
+  font-size: 1rem;
+  color: darkgray;
+  padding: 0 0.125rem 0 0.125rem;
+}
+
+.post .content .header .date-separator::before {
+  content: " \2219 ";
+}
+
+.post .content {
+  width: 100%;
+  margin: 0 1rem 0 1rem;
+}
+
+.post .verified-badge {
+  width: 100%;
+  color: var(--twitter-color);
+  display: flex;
+}
+
+.post .description {
+  white-space: pre;
+  text-align: left;
+  padding: 0.5rem 0;
+}
+
+.post .body img {
+  border-radius: 20px;
+  width: 30vw;
+}
+
+.post .footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}

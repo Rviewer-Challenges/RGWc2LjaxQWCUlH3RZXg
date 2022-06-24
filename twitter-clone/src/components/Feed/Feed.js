@@ -1,6 +1,8 @@
 import React from "react";
+import Post from "../Post/Post";
 import TweetBox from "../TweetBox/TweetBox";
 import "./Feed.css";
+import * as postMocks from '../Post/mocks/postMocks.js';
 
 function Feed(props) {
   return (
@@ -9,7 +11,8 @@ function Feed(props) {
         <h2>Home</h2>
       </div>
       <TweetBox/>
-      {/* Post */}
+      <Post post={postMocks.postProgrammersDay}/>
+      <Post post={postMocks.postPilsen}/>
       {/* Post */}
       {/* Post */}
       {/* Post */}
