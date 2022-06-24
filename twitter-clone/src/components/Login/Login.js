@@ -27,13 +27,9 @@ function Login() {
           </svg>
           <span>Lo que está pasando ahora</span>
           <span>Únete a Twitter hoy mismo</span>
-          <div>
-            <div className="button">
-              <Link to="/home">Inicia sesión</Link>
-              {/* <a href="#">Inicia sesión</a> */}
-            </div>
-          </div>
-          {/* login */}
+          <Link className="button" to="/home">
+            Inicia sesión
+          </Link>
         </article>
       </main>
       <footer>

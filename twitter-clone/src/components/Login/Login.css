@@ -100,7 +100,7 @@ footer nav ul li a {
 .half-wall.join span:nth-child(2) {
   font-size: 5rem;
   width: 60%;
-  margin-top: 3rem ;
+  margin-top: 3rem;
 }
 
 .half-wall.join span:nth-child(3) {
@@ -113,14 +113,14 @@ footer nav ul li a {
   z-index: 2;
   align-self: flex-start;
 }
-.button:hover{
+.button:hover {
   cursor: pointer;
 }
-.button a{
- text-decoration: none;
- color: black;
+.button {
+  text-decoration: none;
+  color: black;
 }
-.half-wall.join .button{
+.half-wall.join .button {
   background-color: white;
   padding: 1rem;
   border-radius: 45px;
