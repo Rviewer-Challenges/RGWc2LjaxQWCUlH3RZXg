@@ -5,7 +5,7 @@ import "./Home.css";
 import Widgets from "../Widgets/Widgets";
 const Home = (props) => {
   return (
-    <div className="container">
+    <div className="home-container">
       <Sidebar />
       <Feed />
       <Widgets />
