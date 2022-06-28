@@ -5,11 +5,11 @@
   overflow-y: scroll;
 }
 
-.feed .header {
+.feed > .header {
   position: sticky;
   top: 0;
   background-color: white;
-  z-index: 2;
+  z-index: 10;
   border: 1px solid var(--twitter-background);
   padding: 15px 20px;
 }
